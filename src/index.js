@@ -1,10 +1,12 @@
 import "./mainpage/index";
 import Swiper from "swiper";
+import Aos from "aos";
+
 // import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 const navbar_items = [
   "درباره ما",
   "تماس با ما",
@@ -34,7 +36,10 @@ const swiper = new Swiper(".series-swiper", {
   slidesPerView: 4,
   spaceBetween: 10,
   loop: true,
-  modules: [Pagination, Navigation],
+  autoplay: {
+    delay: 5000,
+  },
+  modules: [Pagination, Navigation, Autoplay],
   pagination: {
     el: ".swiper-pagination",
   },
@@ -81,4 +86,7 @@ select_language_btn.addEventListener("click", () => {
     navbarLinkContainer.appendChild(language_component_element);
     selectLanguage = true;
   }
+});
+window.addEventListener("DOMContentLoaded", () => {
+  Aos.init();
 });

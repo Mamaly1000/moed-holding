@@ -24,6 +24,7 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "swiper": "^10.0.3"
   }
 }
