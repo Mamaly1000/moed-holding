@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>holding</title>
+    <link rel="stylesheet" href="./styles/output.css" />
+    <link rel="stylesheet" href="./styles/mainpage.css" />
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      class="navbar w-full min-h-fit h-16 px-10 py-10 md:px-24 flex justify-between relative items-center z-50"
+    >
+      <div
+        class="nav-link-container w-2/3 flex justify-start gap-4 items-center text-text flex-row"
+      >
+        <a
+          id="select-language"
+          class="flex flex-row-reverse justify-center items-center gap-2"
+        >
+          فارسی<img src="./assets/mainpage/navbar/arrow.svg" />
+        </a>
+      </div>
+      <div
+        class="logo-container w-1/3 h-full pt-5 flex justify-end items-center z-30"
+      >
+        <img src="./assets/mainpage/navbar/logo.svg" class="" />
+      </div>
+    </nav>
+    <div
+      class="w-full min-h-fit h-fit flex flex-col justify-center items-center gap-36 overflow-hidden p-0 m-0 pb-10"
+    >
+      <section
+        class="section1 w-full min-h-fit overflow-hidden rounded-lg px-10 md:px-24"
+      >
+        <div class="h-full bg-white flex items-center justify-center">
+          <div
+            class="w-1/2 h-full video-section bg-secondary rounded-type_2 flex justify-center items-center p-10 relative z-0"
+          >
+            <div class="video-container p-6 rounded-30px">
+              <img src="./assets/mainpage/section-1/video.svg" alt="video" />
+            </div>
+            <img
+              src="./assets/mainpage/section-1/play.svg"
+              alt="play"
+              class="absolute cursor-pointer active:animate-pulse hover:scale-125 transition-all"
+            />
+          </div>
+          <div
+            class="w-1/2 h-full flex flex-col justify-between items-start rounded-type_1 z-50"
+          >
+            <div
+              class="intro-section h-1/2 text-white flex flex-row-reverse bg-secondary text-right w-full gap-10 p-10 rounded-type_3"
+            >
+              <img src="./assets/mainpage/section-1/intro-dots.svg" />
+              <div class="h-full pb-5">
+                <h1 class="h1-text">
+                  .هلدینگ <span class="text-primary">معید</span>
+                </h1>
+                <span class="plain-text opacity-40"
+                  >مرجع بزرگ سوالات و دوره های حقوقی
+                </span>
+              </div>
+            </div>
+            <div
+              class="relative desc-intro-section rounded-30px w-full h-1/2 p-10 flex items-center bg-white justify-center text-right"
+            >
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+              در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
+              نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="series-setction h-400px w-full px-10 md:px-24">
+        <div
+          class="bg-primary w-full h-full rounded-30px relative px-10 pt-32 mb-20 flex flex-col justify-center items-center gap-20"
+        >
+          <div
+            class="flex justify-between flex-row-reverse items-center w-full h-100px"
+          >
+            <div
+              class="w-1/2 h-full flex flex-row-reverse justify-start items-center gap-5"
+            >
+              <img src="./assets/mainpage/section-2/dots.svg" />
+              <h2
+                class="h2-text flex flex-col justify-center items-end w-1/2 text-white text-right h-full"
+              >
+                مجموعه های
+                <span class="text-white">.معید</span>
+              </h2>
+            </div>
+            <div class="series-section-paragraph w-1/3 text-white text-left">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+              استفاده از طراحان گرافیک است.
+            </div>
+          </div>
+          <div class="slider-container h-300px w-full px-10 bg-transparent">
+            <div class="series-swiper swiper w-full h-full">
+              <div class="swiper-wrapper pb-10">
+                <div
+                  class="swiper-slide bg-white drop-shadow-xl p-6 flex justify-center items-center"
+                >
+                  <img
+                    src="./assets/mainpage/section-2/slide-icon.svg"
+                    class="bg-white"
+                  />
+                </div>
+                <div
+                  class="swiper-slide bg-white drop-shadow-xl p-6 flex justify-center items-center"
+                >
+                  <img
+                    src="./assets/mainpage/section-2/slide-icon.svg"
+                    class="bg-white"
+                  />
+                </div>
+                <div
+                  class="swiper-slide bg-white drop-shadow-xl p-6 flex justify-center items-center"
+                >
+                  <img
+                    src="./assets/mainpage/section-2/slide-icon.svg"
+                    class="bg-white"
+                  />
+                </div>
+                <div
+                  class="swiper-slide bg-white drop-shadow-xl p-6 flex justify-center items-center"
+                >
+                  <img
+                    src="./assets/mainpage/section-2/slide-icon.svg"
+                    class="bg-white"
+                  />
+                </div>
+                <div
+                  class="swiper-slide bg-white drop-shadow-xl p-6 flex justify-center items-center"
+                >
+                  <img
+                    src="./assets/mainpage/section-2/slide-icon.svg"
+                    class="bg-white"
+                  />
+                </div>
+                <div
+                  class="swiper-slide bg-white drop-shadow-xl p-6 flex justify-center items-center"
+                >
+                  <img
+                    src="./assets/mainpage/section-2/slide-icon.svg"
+                    class="bg-white"
+                  />
+                </div>
+                <div
+                  class="swiper-slide bg-white drop-shadow-xl p-6 flex justify-center items-center"
+                >
+                  <img
+                    src="./assets/mainpage/section-2/slide-icon.svg"
+                    class="bg-white"
+                  />
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev opacity-0 hidden"></div>
+              <div class="swiper-button-next opacity-0 hidden"></div>
+
+              <!-- If we need scrollbar -->
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="legal-section w-full h-1000px px-14">
+        <div
+          class="w-full h-600px relative flex justify-evenly items-center flex-row flex-wrap"
+        >
+          <div class="relative w-5/12 h-400px flex items-center justify-center">
+            <div
+              class="circle-component absolute bg-white drop-shadow-2xl"
+            ></div>
+            <div
+              class="bg-violet-600 min-w-600px min-h-400px rounded-30px absolute flex justify-start items-start flex-wrap flex-row z-10"
+            >
+              <div
+                class="relative bg-group w-3/5 h-2/6 ps-5 pe-36 flex justify-between items-center flex-row-reverse rounded-type_4"
+              >
+                <div class="h-full bg-group pt-5 rounded-30px">
+                  <h3
+                    class="text-secondary font-extrabold text-large text-right"
+                  >
+                    <span class="text-primary"> حقوقی</span>
+                    معید
+                  </h3>
+                  <h3 class="text-secondary font-light text-large text-right">
+                    Moeid <span class="text-primary">Law Group</span>
+                  </h3>
+                </div>
+                <button class="hover:scale-110 transition-all">
+                  <img src="./assets/mainpage/section-3/button.svg" />
+                </button>
+                <div
+                  class="absolute w-70 bottom-0 left-10 h-0.5 bg-text opacity-10"
+                ></div>
+              </div>
+              <div
+                class="vector-container bg-white w-2/5 h-2/6 bg-transparent flex items-center justify-end absolute top-0 end-0 pe-5 rounded-30px"
+              >
+                <img src="./assets/mainpage/section-3/vector-1.svg" />
+              </div>
+              <div
+                class="w-full h-4/6 flex flex-col justify-center items-center rounded-type_1 bg-group px-5 gap-2"
+              >
+                <p class="paragraph-text w-full">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است.
+                </p>
+                <div
+                  class="legal-services-container w-full h-100px flex justify-between items-center"
+                >
+                  <div
+                    class="legap-service-component h-100px w-120px bg-white flex flex-col items-end justify-center rounded-17px p-3"
+                  >
+                    <img src="./assets/mainpage/section-3/page.svg" />
+                    <h5
+                      class="flex flex-col items-end justify-end text-right w-full"
+                    >
+                      قبول
+                      <span class="text-secondary font-bold">دعاوی</span>
+                    </h5>
+                  </div>
+                  <div
+                    class="legap-service-component h-100px w-120px bg-white flex flex-col items-end justify-center rounded-17px p-3"
+                  >
+                    <img src="./assets/mainpage/section-3/pen.svg" />
+                    <h5
+                      class="flex flex-col items-end justify-end text-right w-full"
+                    >
+                      تنظیم
+                      <span class="text-secondary font-bold">دادخواست</span>
+                    </h5>
+                  </div>
+                  <div
+                    class="legap-service-component h-100px w-120px bg-white flex flex-col items-end justify-center rounded-17px p-3"
+                  >
+                    <img src="./assets/mainpage/section-3/save.svg" />
+                    <h5
+                      class="flex flex-col items-end justify-end text-right w-full"
+                    >
+                      لایحه
+                      <span class="text-secondary font-bold">دفاعیه</span>
+                    </h5>
+                  </div>
+                  <div
+                    class="legap-service-component h-100px w-120px bg-white flex flex-col items-end justify-center rounded-17px p-3"
+                  >
+                    <img src="./assets/mainpage/section-3/camera.svg" />
+                    <h5
+                      class="flex flex-col items-end justify-end text-right w-full"
+                    >
+                      مشاوره
+                      <span class="text-secondary font-bold">حقوقی</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-5/12 h-full relative bg-red-600 flex items-center justify-center"
+          >
+            <div class="circle-component-2 absolute top-0 left-0"></div>
+            <img
+              src="./assets/mainpage/section-3/main-section-pic.svg"
+              class="absolute w-600px h-400px rounded-30px drop-shadow-2xl shadow-gray-300"
+            />
+          </div>
+        </div>
+      </section> -->
+      <!-- <section class="academic-section"></section> -->
+      <section class="immigration-section"></section>
+    </div>
+    <footer></footer>
+    <script src="dist/bundle.js"></script>
+  </body>
+</html>
